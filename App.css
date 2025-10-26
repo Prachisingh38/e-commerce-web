@@ -1,0 +1,40 @@
+/* App level styling */
+.App {
+  text-align: center;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .product-view-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-view-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .product-card {
+    width: 45%;
+  }
+
+  .cart {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    width: 100%;
+  }
+
+  .product-view-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .cart {
+    width: 100%;
+  }
+}
